@@ -1,6 +1,7 @@
 # eigrpmetric.py
-# calculate eigrp metric using bandwidth and delay as inputs
-# 
+# calculate classic eigrp metric using bandwidth and delay as inputs
+# The EIGRP classic metrtic is calculated by dividing the lowest bandwidth hop into 10^7, adding the sum of the delay along the path 
+# and multiplying the result by 256.  The resulting integer is what EIGRP uses to determine the successor route.
 
 least_bw = int(input("Enter the lowest bandwidth on the path in kbps: "))
 
