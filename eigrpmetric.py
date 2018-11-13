@@ -1,6 +1,6 @@
 # eigrpmetric.py
 # calculate eigrp metric using bandwidth and delay as inputs
-
+# 
 
 least_bw = int(input("Enter the lowest bandwidth on the path in kbps: "))
 
