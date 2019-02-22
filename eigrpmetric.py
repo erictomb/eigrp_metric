@@ -9,4 +9,4 @@ total_delay = int(input("Enter the sum of the delay on the path in 10s of usec: 
 
 metric = ((10**7/least_bw) + total_delay) * 256
 
-print("The EIGRP metric for this path is :" + str(metric))
+print("The EIGRP metric for this path is " + str(int(metric)))
